@@ -6,8 +6,6 @@
     font-variation-settings:
       "wdth" 100;
     }
-
-
 /* Shared Style */
 .secondary-bg{
     background-color: #FFF8F3;
@@ -21,9 +19,6 @@
 .text-center{
     text-align: center;
 }
-
-
-
 .section-title{
     font-size: 35px;
     font-weight: bold;
@@ -61,8 +56,6 @@
     background-position: top left, bottom right;
     
 }
-
-
 /* Nav styles */
 nav{
     display:flex;
