@@ -7,6 +7,7 @@
       "wdth" 100;
     }
 
+
 /* Shared Style */
 .secondary-bg{
     background-color: #FFF8F3;
@@ -166,4 +167,67 @@ main section{
 
 .text{
     margin: 30px 116px 50px 116px;
+}
+
+/* resume section styles */
+
+.resume-container{
+    display:flex;
+    gap: 24px;
+}
+
+.experience-subtitle{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.experience-description{
+    font-size: 16px;
+}
+.resume-column-title{
+    font-size: 30;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.experience-title{
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+.resume-download-cv{
+    margin-top: 30px;
+    text-align: center;
+}
+.resume hr{
+    margin-top:50px;
+}
+
+/* Footer styles */
+footer{
+    padding: 130px 230px;
+    display:flex;
+    gap: 117px;
+}
+
+.footer-column{
+    width:50%;
+}
+
+footer input[type="text"], footer input[type="email"]{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
+footer textarea{
+    width: 100%;
+    border-radius: 5px; 
+    
 }
